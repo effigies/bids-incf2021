@@ -193,7 +193,7 @@ querying and manipulating BIDS datasets.
 ```Python
 >>> from bids import BIDSLayout
 >>> layout = BIDSLayout('/data/bids/openneuro/ds000228')
->>> bold = layout.get(subject='pixar002', suffix='bold', extension='nii.gz')
+>>> bold = layout.get(subject='pixar002', suffix='bold', extension='.nii.gz')
 >>> bold
 [<BIDSImageFile filename='/data/bids/openneuro/ds000228/sub-pixar002/func/sub-pixar002_task-pixar_bold.nii.gz'>]
 >>> md = bold[0].get_metadata()
