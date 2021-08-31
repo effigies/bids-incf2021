@@ -562,6 +562,6 @@ template: footer
 ---
 class: center middle
 
-# Questions?
+# Thank You
 
 ##### [effigies.github.io/bids-incf2021](https://effigies.github.io/bids-incf2021)
